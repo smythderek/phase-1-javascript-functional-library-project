@@ -115,3 +115,12 @@ function myLast(array, n) {
 
     else return array.slice(-n);
 }
+
+function myKeys(object) {
+    return Object.keys(object)
+}
+
+function myValues(object) {
+    return Object.values(object)
+}
+console.log(myValues({one: 1, two: 2, three: 3}));
